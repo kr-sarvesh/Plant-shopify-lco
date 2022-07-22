@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: grey;
+}
+
+#navFirst img {
+  width: 100px;
+}
+
+#navbarMonstera {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 50px;
+}
+#navMid {
+  display: flex;
+  width: 1000px;
+  height: 36px;
+}
+#navMid > * {
+  display: flex;
+  padding: 0 62px;
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
+}
+
+#navEnd {
+  display: flex;
+  width: 160px;
+  justify-content: space-between;
+}
